@@ -1,0 +1,83 @@
+{
+  "name": "Acme Corp",
+  "customer_type": "business",
+  "description": "Short description. of the business",
+  "website": "",
+  "tax_exempt": false,
+  "auto_pay": false,
+  "edit_auto_pay": true,
+  "print_preference": true,
+  "email_preference": true,
+  "payment_options": {
+    "ach_enabled": true,
+    "credit_enabled": true
+  },
+  "id": "C-00004",
+  "payment_terms": "Due on Receipt",
+  "billing_cycle_day": "1st Day Of The Month",
+  "billing_contact_id": "CT-00004",
+  "billing_contact_email": "",
+  "shipping_contact_id": "CT-00004",
+  "shipping_contact_email": "",
+  "status": "Active",
+  "billing_batch": "Default",
+  "balance": "103602.12",
+  "currency": "USD",
+  "cmrr": "4000.00",
+  "discounted_cmrr": "4000.00",
+  "payment_gateway_id": "",
+  "gateway_name": "Stripe",
+  "gateway_account_name": "",
+  "delivery_preferences": {
+    "print": true,
+    "email": true
+  },
+  "contacts": [
+    {
+      "id": "CT-00004",
+      "customer_id": "C-00004",
+      "first_name": "Zachery",
+      "last_name": "Mosley",
+      "display_name": "Zachery Mosley",
+      "email": "",
+      "phone": "233-222-1111",
+      "mobile": "233-333-1111",
+      "job_title": "Accounts Payable Specialist",
+      "department": "Finance",
+      "notes": "",
+      "address1": "21 S. Thompson Street ",
+      "address2": "",
+      "city": "",
+      "state": "",
+      "zip": "12345",
+      "county": "",
+      "country": "United States",
+      "created_by": "",
+      "updated_by": "",
+      "created_date": "2018-08-10T21:41:19.798Z",
+      "updated_date": "2018-08-10T21:41:19.799Z",
+      "custom_fields": {
+        "custom_field1": "field_value1",
+        "custom_field2": "field_value2"
+      },
+      "custom_field1": "field_value1",
+      "custom_field2": "field_value2"
+    }
+  ],
+  "created_by": "",
+  "updated_by": "",
+  "created_date": "2018-08-10T20:56:46.055Z",
+  "updated_date": "2020-08-27T16:00:00.614Z",
+  "pay_now_url": "",
+  "update_payment_method_url": "",
+  "open_invoices_url": "",
+  "last_invoiced_at": "2022-09-25",
+  "ach_enabled": true,
+  "credit_enabled": true,
+  "custom_fields": {
+    "custom_field1": "field_value1",
+    "custom_field2": "field_value2"
+  },
+  "custom_field1": "field_value1",
+  "custom_field2": "field_value2"
+}
